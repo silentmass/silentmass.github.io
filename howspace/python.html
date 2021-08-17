@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Python</title>
+</head>
+
+<body>
+
+    <link rel="stylesheet" href="/highlight/styles/github-dark.min.css">
+    <script src="/highlight/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+    <pre>
+        <code class="language-python">
+            @requires_authorization(roles=["ADMIN"])
+            def somefunc(param1='', param2=0):
+                r'''A docstring'''
+                if param1 > param2: # interesting
+                    print 'Gre\'ater'
+                return (param2 - param1 + 1 + 0b10l) or None
+            
+            class SomeClass:
+                pass
+            
+            >>> message = '''interpreter
+            ... prompt'''
+    </code></pre>
+
+</body>
+
+</html>
