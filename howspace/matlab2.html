@@ -21,6 +21,7 @@
             <!-- <embed src="matlab_example.txt"> -->
     </code></pre>
     <script>
+        requirejs(['require']);
         const fs = require('fs');
         const txtFile = "matlab_example.txt"
         fs.readFile(txtFile, 'utf-8', (err, data) => {
