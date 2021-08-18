@@ -1,4 +1,4 @@
-@font-face { font-family: woff2; src: url("../fonts/fontawesome-webfont.woff2"); }
+@font-face { font-family: "fontawesome"; src: url("../fonts/fontawesome-webfont.woff2"); }
 
 
 
@@ -28,10 +28,10 @@ td,
 th {
     border: 0px solid black;
     padding: 7px;
-    font-family: woff2;
+    font-family: "fontawesome";
 }
 .timezone {
-    font-family: woff2;
+    font-family: "fontawesome";
 }
 .poster-number {
     text-align: right;
