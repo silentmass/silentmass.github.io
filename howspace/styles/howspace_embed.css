@@ -9,6 +9,7 @@ thead, tbody, p {
     font-family: woff2;
     font-size:medium;
 }
+
 thead {
     color: rgb(0, 0, 0);
 }
@@ -28,7 +29,9 @@ th {
     border: 0px solid black;
     padding: 7px;
 }
-
+.timezone {
+    font-family: woff2;
+}
 .poster-number {
     text-align: right;
 }
