@@ -1,8 +1,6 @@
 @font-face { font-family: woff2; src: url("../fonts/fontawesome-webfont.woff2"); }
 
-.poster-number {
-    text-align: right;
-}
+
 
 .poster-header {
     padding-top: 30px;
@@ -29,6 +27,10 @@ td,
 th {
     border: 0px solid black;
     padding: 5px;
+}
+
+.poster-number {
+    text-align: right;
 }
 
 /* th {
