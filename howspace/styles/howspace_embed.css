@@ -1,13 +1,20 @@
+@font-face { font-family: woff2; src: url("../fonts/fontawesome-webfont.woff2"); }
+
+
 .poster-header {
     padding-top: 30px;
+    font-family: woff2;
 }
-
+thead, tbody {
+    font-family: woff2;
+}
 thead {
     color: rgb(0, 0, 0);
 }
 
 tbody {
     color: rgb(0, 0, 0);
+    
 }
 
 tfoot {
