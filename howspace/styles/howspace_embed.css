@@ -1,0 +1,23 @@
+thead {
+    color: rgb(0, 0, 0);
+}
+
+tbody {
+    color: rgb(0, 0, 0);
+}
+
+tfoot {
+    color: rgb(29, 29, 29);
+}
+
+
+td,
+th {
+    border: 0px solid black;
+    font-size:larger;
+    padding: 5px;
+}
+
+th {
+    padding-top: 30px;
+}
