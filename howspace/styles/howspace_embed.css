@@ -1,5 +1,8 @@
 @font-face { font-family: woff2; src: url("../fonts/fontawesome-webfont.woff2"); }
 
+.poster-number {
+    text-align: right;
+}
 
 .poster-header {
     padding-top: 30px;
