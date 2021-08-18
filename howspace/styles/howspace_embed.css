@@ -5,7 +5,7 @@
 .poster-header {
     padding-top: 30px;
 }
-thead, tbody {
+thead, tbody, p {
     font-family: woff2;
     font-size:medium;
 }
