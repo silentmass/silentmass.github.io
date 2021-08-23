@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=">
+    <!-- <meta name="viewport" content="width=, initial-scale="> -->
     <title>Clock</title>
     <style>
         body {
@@ -19,9 +19,9 @@
             background-color: #ffffff;
             color: #000000;
             display: flex;
-            align-items: center;
+            align-items: top;
             justify-content: center;
-            font-size: 50px;
+            font-size: 20px;
         }
     </style>
 </head>
@@ -50,7 +50,7 @@
             // secs = secs < 10 ? `0${secs}` : secs;
 
             let time = `${hrs}:${mins} ${period}`;
-            setInterval(clock, 10000);
+            setInterval(clock, 1000);
             document.getElementById("clock").innerText = time;
         }
 
