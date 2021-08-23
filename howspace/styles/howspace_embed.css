@@ -8,12 +8,29 @@
 
 
 
-.poster-header {
-    padding-top: 30px;
-}
+
 thead, tbody, p {
     font-family: "FontAwesome";
     font-size:medium;
+    font-weight: normal;
+}
+
+.poster-header-row {
+    padding-top: 30px;
+}
+.poster-header {
+    padding-top: 30px;
+    font-family: "FontAwesome";
+    font-size:medium;
+    color: black;
+    font-weight: bold;
+}
+.poster-host {
+    font-family: "FontAwesome";
+    font-size:medium;
+    color:rgb(29, 29, 29);
+    font-weight: normal;
+    font-style: normal;
 }
 
 thead {
@@ -42,7 +59,3 @@ th {
 .poster-number {
     text-align: right;
 }
-
-/* th {
-    padding-top: 30px;
-} */
