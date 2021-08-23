@@ -13,17 +13,20 @@ thead, tbody, p {
     font-family: "FontAwesome";
     font-size:medium;
     font-weight: normal;
+    /* padding-top: 10px; */
 }
 
 .poster-header-row {
     padding-top: 30px;
+    padding-bottom: 0px;
+    /* line-height: 0px; */
 }
 .poster-header {
-    padding-top: 30px;
     font-family: "FontAwesome";
     font-size:medium;
     color: black;
     font-weight: bold;
+    line-height: 0px;
 }
 .poster-host {
     font-family: "FontAwesome";
@@ -50,7 +53,10 @@ tfoot {
 td,
 th {
     border: 0px solid black;
-    padding: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-family: "FontAwesome";
 }
 .timezone {
